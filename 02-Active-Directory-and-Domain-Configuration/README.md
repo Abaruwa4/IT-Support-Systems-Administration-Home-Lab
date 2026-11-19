@@ -33,10 +33,18 @@ Install Active Directory Domain Services (AD DS) and configure Windows Server as
 - Confirm that the default Active Directory folders are present.
 
 ## Evidence
-- Active Directory Domain Services installation and configuration details.
-- Domain Controller settings.
-- Active Directory Users and Computers showing the `lab.local` domain.
-- Server Manager showing the installed roles.
+
+### Active Directory and DNS Roles
+![Active Directory and DNS Roles](active-directory-dns-roles.png)
+
+### Domain Controller Overview
+![Domain Controller Overview](domain-controller-overview.png)
+
+### Active Directory Domain Structure
+![Active Directory Domain Structure](active-directory-domain-structure.png)
+
+### DNS Forward Lookup Zone
+![DNS Forward Lookup Zone](dns-forward-lookup-zone.png)
 
 ## Key Learnings
 - Understanding Active Directory and its purpose in an organisation.
