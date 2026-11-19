@@ -34,15 +34,21 @@ Create an Organisational Unit (OU), set up user accounts and create a security g
 - Confirm that Sarah Williams is a member and Michael Brown is not.
 
 ## Evidence
-- Active Directory structure showing the `Staff` OU and user accounts.
-- Security group properties and membership.
-- PowerShell output using commands such as:
 
-```powershell
-Get-ADGroupMember -Identity "IT Support"
+### Staff Organisational Unit and User Accounts
+![Staff OU and User Accounts](staff-ou-and-user-accounts.png)
 
-Get-ADUser -Identity "swilliams" -Properties MemberOf
-```
+### Sarah Williams – User Account
+![Sarah Williams Account](user-account-sarah-williams.png)
+
+### Michael Brown – User Account
+![Michael Brown Account](user-account-michael-brown.png)
+
+### IT Support – Security Group Configuration
+![IT Support Security Group](it-support-security-group.png)
+
+### PowerShell – Group Membership Verification
+![PowerShell Group Membership](powershell-group-membership-verification.png)
 
 ## Key Learnings
 - Understanding how OUs organise users and other Active Directory objects.
